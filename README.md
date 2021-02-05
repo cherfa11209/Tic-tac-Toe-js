@@ -1,9 +1,9 @@
 # Tic-tac-Toe-js
 
-When I started working on this project I assumed it would be super simple, that I would be down in an hour. 
+When I started working on this project I assumed it would be super simple, that I would be done in an hour. 
 I didn't know about most of Vanilla JS limitations back then, that if I were to use an if statement to determine who would play when the user's turn would come around the program wouldn't wait for the user's input.
 I thought about using prompts to get the player to make their move but that ended up causing the board to disappear long enough that I wouldn't be able to see the pc's moves and I would essentially be playing blind. 
-Then I tried use setTimeOut() to cause the program to wait for a moment while the user made their move but that caused the console to crash as I had to call a function repeatedly while the player made their move. 
+Then I tried to use setTimeOut() to cause the program to wait for a moment while the user made their move but that caused the console to crash as I had to call a function repeatedly while the player made their move. 
 I ended up settling on triggering the pc to make a move immediately after the user decided on a cell.
 
  I instructed the AI to take the middle cell immeditaly if it were available as it would give them the upper hand.
